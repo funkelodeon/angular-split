@@ -639,6 +639,7 @@ var SplitComponent = (function () {
      * @return {?}
      */
     function (start, end, areaA, areaB) {
+        console.log("DRAG IS BEING CALLED");
         // ¤ AREAS SIZE PIXEL
         var /** @type {?} */ devicePixelRatio = window.devicePixelRatio || 1;
         var /** @type {?} */ offsetPixel = (this.direction === 'horizontal') ? (start.x - end.x) : (start.y - end.y);
