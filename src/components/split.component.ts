@@ -548,6 +548,8 @@ export class SplitComponent implements AfterViewInit, OnDestroy {
 
     private drag(start: IPoint, end: IPoint, areaA: IArea, areaB: IArea): void {
 
+        console.log("DRAG IS BEING CALLED");
+
         // ¤ AREAS SIZE PIXEL
 
         const devicePixelRatio = window.devicePixelRatio || 1;
