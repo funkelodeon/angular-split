@@ -1,5 +1,7 @@
-# angular-split
+# angular-split-continued
 Angular UI library used to split views and to allow dragging to resize the split areas using CSS flexbox layout.
+
+NOTE: This is a pick-it-up-and-run-with-it adoption of package angular-split, previously maintained by bertrandg:
 
 [![npm version](https://badge.fury.io/js/angular-split.svg)](https://badge.fury.io/js/angular-split)
 
