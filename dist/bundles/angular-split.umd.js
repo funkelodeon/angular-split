@@ -565,14 +565,14 @@ var SplitComponent = (function () {
         var /** @type {?} */ start;
         if (startEvent instanceof MouseEvent) {
             start = {
-                x: startEvent.screenX,
-                y: startEvent.screenY,
+                x: startEvent.pageX,
+                y: startEvent.pageY,
             };
         }
         else if (startEvent instanceof TouchEvent) {
             start = {
-                x: startEvent.touches[0].screenX,
-                y: startEvent.touches[0].screenY,
+                x: startEvent.touches[0].pageX,
+                y: startEvent.touches[0].pageY,
             };
         }
         else {
@@ -608,14 +608,14 @@ var SplitComponent = (function () {
         var /** @type {?} */ end;
         if (event instanceof MouseEvent) {
             end = {
-                x: event.screenX,
-                y: event.screenY,
+                x: event.pageX,
+                y: event.pageY,
             };
         }
         else if (event instanceof TouchEvent) {
             end = {
-                x: event.touches[0].screenX,
-                y: event.touches[0].screenY,
+                x: event.touches[0].pageX,
+                y: event.touches[0].pageY,
             };
         }
         else {

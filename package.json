@@ -1,6 +1,6 @@
 {
-    "name": "angular-split",
-    "version": "1.0.0-rc.3",
+    "name": "angular-split-continued",
+    "version": "1.0.1-alpha1",
     "description": "Angular UI library used to split views and to allow dragging to resize the split areas using CSS flexbox layout.",
     "main": "./bundles/angular-split.umd.js",
     "module": "./esm5/angular-split.js",
@@ -13,15 +13,15 @@
         "publish-lib:next": "npm publish --tag next ./dist"
     },
     "typings": "./angular-split.d.ts",
-    "author": "bertrandg",
+    "author": "funkelodeon",
     "repository": {
         "type": "git",
-        "url": "https://github.com/bertrandg/angular-split.git"
+        "url": "https://github.com/funkelodeon/angular-split.git"
     },
     "bugs": {
-        "url": "https://github.com/bertrandg/angular-split/issues"
+        "url": "https://github.com/funkelodeon/angular-split/issues"
     },
-    "homepage": "https://github.com/bertrandg/angular-split",
+    "homepage": "https://github.com/funkelodeon/angular-split",
     "keywords": [
         "angular",
         "split",
